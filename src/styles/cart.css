@@ -1,0 +1,43 @@
+/* cart.css */
+.cart-container {
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cart-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .cart-item img {
+    transition: transform 0.3s ease;
+  }
+  
+  .cart-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .cart button {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .cart button:hover {
+    color: #ff5555;
+  }
+  
+  .total-price {
+    border-top: 2px solid #e2e8f0;
+    padding-top: 10px;
+  }
+  
+  .total-price .checkout {
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout:hover {
+    background-color: #38a169;
+  }
+  

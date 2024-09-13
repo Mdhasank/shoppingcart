@@ -1,0 +1,14 @@
+.card{
+    width: 300px;
+    height:400px;
+}
+/* cards.css */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02); /* Slightly enlarges the card */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); /* Adds a deeper shadow */
+  }
+  
